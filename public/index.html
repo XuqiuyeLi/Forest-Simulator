@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+
+    <head>
+        <title>FOREST SIMULATOR</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="base.css" type="text/css" media="screen" title="no title" charset="utf-8">
+        <link href="https://fonts.googleapis.com/css?family=Lato|Playfair+Display" rel="stylesheet" >
+    </head>
+
+
+    <body>
+        <div id="content">
+            <h1>FOREST SIMULATOR</h1>
+            <div id="intro">
+                starting forest (leave empty to randomize):
+                <br />
+                <textarea id="inputForest" name="inputForest" cols="16" rows="8"></textarea>
+                <br />
+                <button>generate</button>
+            </div>
+            <div id="sim" class="hidden">
+            </div>
+            <div id="pushtray" class="overlay">
+            </div>
+        </div><!--close id="content"-->
+        <script src="sim.js"></script>
+    </body>
+</html>
